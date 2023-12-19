@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yum-yum🍴</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="mealistyles.css" />
+</head>
+
+<body>
+
+  <div class = "container">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <h2 class = "title">yum-yum🍴</h2>
+        <blockquote>"Embark on a culinary journey like no other, where every dish is a story waiting to be savored. Welcome to a world of flavors, welcome to yum-yum🍴"
+        </blockquote>
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="search the ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class = "meal-result">
+        <h2 class = "title">Find Your Meal:</h2>
+        <div id= "meal">
+        </div>
+      </div>
+      <div class = "meal-details">
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+        <div class = "meal-details-content">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <button class="floating-btn">Next Page</button> -->
+        <a href="index.html" class="floating-btn">Go back</a>
+  <script src = "meal.js"></script>
+</body>
+</html>
